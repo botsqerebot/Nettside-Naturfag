@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    min-width: 600px;
+}
+
+/* NavBar */
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #24d700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#rightNavBar {
+    display: flex;
+    justify-content: center;
+}
+
+#rightNavBar h1 {
+    margin: 10px;
+}
+
+/* Hero Section */
+
+#heroSection {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#heroSection h1{
+    text-align: center;
+}
+
+
+
+/* First Paragrapht */
+.UltrabearbeidetMat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vh;
+    border-radius: 15px;
+}
+
+.UltrabearbeidetMat img {
+    width: 50%;
+    height: 60vh;
+    border-radius: 15px;
+}
+
+.UltrabearbeidetMat p {
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.UltrabearbeidetMat h2 {
+    padding: 20px 10%;
+}
+
+#helsefare {
+    display: flex;
+    pad: 10px;
+}
+
+
+/* Psykisk helse */
+
+.psykiskHelse {
+    display: flex;
+    justify-content: center;
+}
